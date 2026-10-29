@@ -137,10 +137,4 @@ exfil.csv
 copy_test.csv
 
 # Harness modules built by the notebooks (finished copies are in reference/)
-harness/permissions.py
-harness/context.py
-harness/guardrails.py
-harness/verify.py
-harness/supervisor.py
-harness/analyst.py
-harness/*.py.broken
+harness/
