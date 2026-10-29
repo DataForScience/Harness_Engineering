@@ -1,5 +1,5 @@
 [project]
-name = "template"
+name = "harness-engineering"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
@@ -8,4 +8,12 @@ dependencies = [
     "pandas",
     "watermark",
     "jupyter",
+    "duckdb",
+    "sqlglot",
+    "mcp-server-motherduck",
+    "pytest",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
