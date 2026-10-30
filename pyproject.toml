@@ -12,6 +12,7 @@ dependencies = [
     "sqlglot",
     "mcp-server-motherduck",
     "pytest",
+    "anthropic>=2.3.0",
 ]
 
 [tool.pytest.ini_options]
