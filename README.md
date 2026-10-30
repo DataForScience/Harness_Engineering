@@ -73,15 +73,14 @@ Options passed to `set_backend` go to `ClaudeLLM`, for example `set_backend("cla
 
 ## Schedule
 
-| Notebook | Topic | Time |
-|:--|:--|:--:|
-| [01 - The AI Data Analyst](./01%20-%20The%20AI%20Data%20Analyst.ipynb) | The data, the DuckDB MCP server, the mock model and a naive agent loop that fails in four ways | 30 min |
-| [02 - MCP Tools with Permissions](./02%20-%20MCP%20Tools%20with%20Permissions.ipynb) | Tool discovery, allowlists, argument validation, SQL classification, allow/ask/deny rules, approvals and audit logs | 40 min |
-| [03 - Context Within a Token Budget](./03%20-%20Context%20Within%20a%20Token%20Budget.ipynb) | Compact result summaries, expandable handles, conversation compaction and tiered memory | 40 min |
-| *Break* | | 10 min |
-| [04 - Layered Guardrails](./04%20-%20Layered%20Guardrails.ipynb) | Indirect prompt injection, spotlighting and quarantine, SQL inspection, a locked-down database engine | 40 min |
-| [05 - Verifying AI Reports](./05%20-%20Verifying%20AI%20Reports.ipynb) | Claims backed by re-runnable queries, unit and coverage checks, LLM-as-judge for clarity only | 40 min |
-| [06 - Failure Handling and Fault Injection](./06%20-%20Failure%20Handling%20and%20Fault%20Injection.ipynb) | Timeouts, retries, re-planning, budgets, structured traces and a fault-injected CI test suite | 40 min |
+| Notebook | Topic | 
+|:--|:--|
+| [01 - The AI Data Analyst](./01%20-%20The%20AI%20Data%20Analyst.ipynb) | The data, the DuckDB MCP server, the mock model and a naive agent loop that fails in four ways | 
+| [02 - MCP Tools with Permissions](./02%20-%20MCP%20Tools%20with%20Permissions.ipynb) | Tool discovery, allowlists, argument validation, SQL classification, allow/ask/deny rules, approvals and audit logs |
+| [03 - Context Within a Token Budget](./03%20-%20Context%20Within%20a%20Token%20Budget.ipynb) | Compact result summaries, expandable handles, conversation compaction and tiered memory | 
+| [04 - Layered Guardrails](./04%20-%20Layered%20Guardrails.ipynb) | Indirect prompt injection, spotlighting and quarantine, SQL inspection, a locked-down database engine | 
+| [05 - Verifying AI Reports](./05%20-%20Verifying%20AI%20Reports.ipynb) | Claims backed by re-runnable queries, unit and coverage checks, LLM-as-judge for clarity only | 
+| [06 - Failure Handling and Fault Injection](./06%20-%20Failure%20Handling%20and%20Fault%20Injection.ipynb) | Timeouts, retries, re-planning, budgets, structured traces and a fault-injected CI test suite | 
 
 The four failure scenarios we fix along the way: a fabricated explanation for a revenue drop, an oversized tool result, malicious instructions hidden in customer feedback, and questions about periods with missing data.
 
